@@ -1,0 +1,75 @@
+# ==============================
+# Java / Maven / Spring Boot
+# ==============================
+HELP.md
+**/target/
+.mvn/wrapper/maven-wrapper.jar
+
+# STS / Eclipse
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+**/build/
+
+# VS Code
+.vscode/
+
+# ==============================
+# Frontend / Node / Vite
+# ==============================
+**/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.vite/
+frontend/coverage/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ==============================
+# Local data — DO NOT COMMIT
+# ==============================
+platform/data/
+
+
+# Local database files and backups
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.bak
+
+# ==============================
+# Secrets and local configuration
+# ==============================
+.env
+.env.*
+!.env.example
+**/application-local.properties
+**/application-secret.properties
+
+# ==============================
+# OS files and logs
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+logs/
